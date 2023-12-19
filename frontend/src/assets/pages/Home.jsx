@@ -12,7 +12,7 @@ const Home = () => {
             <section className='main-slider '>
                 <div className='main-slider-swiper owl-carousel owl-theme'>
                     <div className='item'>
-                        <div className='item-slider-bg' style={{ backgroundImage: "url(./src/assets/template/image/bg/slider-bg-1.png)" }} />
+                        <div className='item-slider-bg' style={{ backgroundImage: "url(./image/bg/slider-bg-1.png)" }} />
                         <div className='container'>
                             <div className='row'>
                                 <div className='col-md-12'>
@@ -35,7 +35,7 @@ const Home = () => {
                         
                     </div>
                     <div className='item'>
-                        <div className='item-slider-bg' style={{ backgroundImage: "url(./src/assets/template/image/bg/slider-two-bg-1.png)" }} />
+                        <div className='item-slider-bg' style={{ backgroundImage: "url(./image/bg/slider-two-bg-1.png)" }} />
                         <div className='container'>
                             <div className='row'>
                                 <div className='col-md-12'>
@@ -196,7 +196,7 @@ const Home = () => {
                         <div className='col-lg-6'>
                             <div className='about-image'>
                                 <div className='about-image-inner img-one'>
-                                    <img src='./src/assets/template/image/gallery/about-1.jpg' className='img-fluid' alt='img-2' />
+                                    <img src='./image/gallery/about-1.jpg' className='img-fluid' alt='img-2' />
                                     <div className='sign-text'>Kevin Martin</div>
                                     
                                     <div className='about-image-caption'>
@@ -214,8 +214,8 @@ const Home = () => {
                                 </div>
                                 
                                 <div className='about-image-inner img-two'>
-                                    <img src='./src/assets/template/image/shapes/about-3.jpg' className='floated-image' alt='img-3' />
-                                    <img src='./src/assets/template/image/gallery/about-2.jpg' className='img-fluid' alt='img-4' />
+                                    <img src='./image/shapes/about-3.jpg' className='floated-image' alt='img-3' />
+                                    <img src='./image/gallery/about-2.jpg' className='img-fluid' alt='img-4' />
                                 </div>
                                 
                             </div>
@@ -261,7 +261,7 @@ const Home = () => {
                                 
                                 <div className='about-author-box'>
                                     <div className='about-author-image'>
-                                        <img src='./src/assets/template/image/gallery/about-4.png' className='img-fluid' alt='img-5' />
+                                        <img src='./image/gallery/about-4.png' className='img-fluid' alt='img-5' />
                                     </div>
                                     
                                     <div className='about-author-box-meta'>
@@ -300,7 +300,7 @@ const Home = () => {
                                 </div>
                                 
                                 <div className='service-arrow-image'>
-                                    <img src='./src/assets/template/image/shapes/arrow.png' alt='img-6' />
+                                    <img src='./image/shapes/arrow.png' alt='img-6' />
                                 </div>
                                 
                             </div>
@@ -506,8 +506,8 @@ const Home = () => {
                         
                         <div className='col-lg-6'>
                             <div className='mayor-img'>
-                                <img src='./src/assets/template/image/shapes/shape-1.png' className='floated-image-one' alt='img-7' />
-                                <img src='./src/assets/template/image/gallery/mayor-2.jpg' alt='img-8' />
+                                <img src='./image/shapes/shape-1.png' className='floated-image-one' alt='img-7' />
+                                <img src='./image/gallery/mayor-2.jpg' alt='img-8' />
                                 <div className='mayor-name'>Mr. Kevin Martin</div>
                                 
                             </div>
@@ -533,7 +533,7 @@ const Home = () => {
                     <div className='portfolio-carousel owl-carousel owl-theme'>
                         <div className='item'>
                             <div className='portfolio-card'>
-                                <img src='./src/assets/template/image/portfolio/portfolio-1.jpg' className='img-fluid' alt='img-9' />
+                                <img src='./image/portfolio/portfolio-1.jpg' className='img-fluid' alt='img-9' />
                                 <div className='portfolio-card-meta'>
                                     <div className='portfolio-card-text'>
                                         <a href='portfolio-details.html'>Places</a>
@@ -549,7 +549,7 @@ const Home = () => {
                         
                         <div className='item'>
                             <div className='portfolio-card'>
-                                <img src='./src/assets/template/image/portfolio/portfolio-2.jpg' className='img-fluid' alt='img-10' />
+                                <img src='./image/portfolio/portfolio-2.jpg' className='img-fluid' alt='img-10' />
                                 <div className='portfolio-card-meta'>
                                     <div className='portfolio-card-text'>
                                         <a href='portfolio-details.html'>Intercity</a>
@@ -565,7 +565,7 @@ const Home = () => {
                         
                         <div className='item'>
                             <div className='portfolio-card'>
-                                <img src='./src/assets/template/image/portfolio/portfolio-3.jpg' className='img-fluid' alt='img-11' />
+                                <img src='./image/portfolio/portfolio-3.jpg' className='img-fluid' alt='img-11' />
                                 <div className='portfolio-card-meta'>
                                     <div className='portfolio-card-text'>
                                         <a href='portfolio-details.html'>Business</a>
@@ -581,7 +581,7 @@ const Home = () => {
                         
                         <div className='item'>
                             <div className='portfolio-card'>
-                                <img src='./src/assets/template/image/portfolio/portfolio-4.jpg' className='img-fluid' alt='img-12' />
+                                <img src='./image/portfolio/portfolio-4.jpg' className='img-fluid' alt='img-12' />
                                 <div className='portfolio-card-meta'>
                                     <div className='portfolio-card-text'>
                                         <a href='portfolio-details.html'>Travel</a>
@@ -606,19 +606,19 @@ const Home = () => {
                 <div className='container'>
                     <div className='client-carousel owl-carousel owl-theme'>
                         <div className='item'>
-                            <img src='./src/assets/template/image/shapes/client-1.png' className='img-fluid' alt='img-13' />
+                            <img src='./image/shapes/client-1.png' className='img-fluid' alt='img-13' />
                         </div>
                         
                         <div className='item'>
-                            <img src='./src/assets/template/image/shapes/client-1.png' className='img-fluid' alt='img-14' />
+                            <img src='./image/shapes/client-1.png' className='img-fluid' alt='img-14' />
                         </div>
                         
                         <div className='item'>
-                            <img src='./src/assets/template/image/shapes/client-1.png' className='img-fluid' alt='img-15' />
+                            <img src='./image/shapes/client-1.png' className='img-fluid' alt='img-15' />
                         </div>
                         
                         <div className='item'>
-                            <img src='./src/assets/template/image/shapes/client-1.png' className='img-fluid' alt='img-16' />
+                            <img src='./image/shapes/client-1.png' className='img-fluid' alt='img-16' />
                         </div>
                         
                     </div>
@@ -713,17 +713,17 @@ const Home = () => {
                         <div className='testimonial-thumb'>
                             <div className='swiper-wrapper'>
                                 <div className='swiper-slide'>
-                                    <img src='./src/assets/template/image/testimonial/testimonial-2.jpg' className='img-fluid' alt='img-17' />
+                                    <img src='./image/testimonial/testimonial-2.jpg' className='img-fluid' alt='img-17' />
                                     <i className='fa-solid fa-quote-left' />
                                 </div>
                                 
                                 <div className='swiper-slide'>
-                                    <img src='./src/assets/template/image/testimonial/testimonial-3.jpg' className='img-fluid' alt='img-18' />
+                                    <img src='./image/testimonial/testimonial-3.jpg' className='img-fluid' alt='img-18' />
                                     <i className='fa-solid fa-quote-left' />
                                 </div>
                                 
                                 <div className='swiper-slide'>
-                                    <img src='./src/assets/template/image/testimonial/testimonial-4.jpg' className='img-fluid' alt='img-19' />
+                                    <img src='./image/testimonial/testimonial-4.jpg' className='img-fluid' alt='img-19' />
                                     <i className='fa-solid fa-quote-left' />
                                 </div>
                                 
@@ -774,7 +774,7 @@ const Home = () => {
                                     </div>
                                     
                                     <div className='event-details-card-content'>
-                                        <form action='./src/assets/template/inc/sendemail.php' className='contact-form' method='post'>
+                                        <form action='./inc/sendemail.php' className='contact-form' method='post'>
                                             <div className='form-group'>
                                                 <input type='email' id='Email' className='input-text' placeholder='Email address' name='email' required />
                                             </div>
@@ -795,7 +795,7 @@ const Home = () => {
                                     <div className='event-card-image'>
                                         <div className='event-card-image-inner'>
                                             <a href='event-details.html'>
-                                                <img src='./src/assets/template/image/event/event-2.jpg' className='img-fluid' alt='img-20' />
+                                                <img src='./image/event/event-2.jpg' className='img-fluid' alt='img-20' />
                                             </a>
                                             <div className='event-card-meta'>
                                                 <div className='event-meta-number'>
@@ -843,7 +843,7 @@ const Home = () => {
                                     <div className='event-card-image'>
                                         <div className='event-card-image-inner'>
                                             <a href='event-details.html'>
-                                                <img src='./src/assets/template/image/event/event-3.jpg' className='img-fluid' alt='img-21' />
+                                                <img src='./image/event/event-3.jpg' className='img-fluid' alt='img-21' />
                                             </a>
                                             <div className='event-card-meta'>
                                                 <div className='event-meta-number'>
@@ -945,7 +945,7 @@ const Home = () => {
                         <div className='col-lg-4'>
                             <div className='blog-card'>
                                 <div className='blog-card-image'>
-                                    <img src='./src/assets/template/image/blog/blog-1.jpg' className='img-fluid' alt='img-22' />
+                                    <img src='./image/blog/blog-1.jpg' className='img-fluid' alt='img-22' />
                                     <a href='news-details.html' />
                                 </div>
                                 
@@ -978,7 +978,7 @@ const Home = () => {
                         <div className='col-lg-4'>
                             <div className='blog-card'>
                                 <div className='blog-card-image'>
-                                    <img src='./src/assets/template/image/blog/blog-2.jpg' className='img-fluid' alt='img-23' />
+                                    <img src='./image/blog/blog-2.jpg' className='img-fluid' alt='img-23' />
                                     <a href='news-details.html' />
                                 </div>
                                 
@@ -1011,7 +1011,7 @@ const Home = () => {
                         <div className='col-lg-4'>
                             <div className='blog-card'>
                                 <div className='blog-card-image'>
-                                    <img src='./src/assets/template/image/blog/blog-3.jpg' className='img-fluid' alt='img-24' />
+                                    <img src='./image/blog/blog-3.jpg' className='img-fluid' alt='img-24' />
                                     <a href='news-details.html' />
                                 </div>
                                 
@@ -1067,7 +1067,7 @@ const Home = () => {
                             </div>
                             
                             <div className='col-xl-7'>
-                                <form action='./src/assets/template/inc/sendemail.php' className='cta-two-form' method='post'>
+                                <form action='./inc/sendemail.php' className='cta-two-form' method='post'>
                                     <div className='cta-two-form-group'>
                                         <input type='email' id='email' className='input-text' placeholder='Email address' name='email' required />
                                     </div>

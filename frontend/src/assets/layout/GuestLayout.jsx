@@ -156,7 +156,8 @@ const GuestLayout = () => {
                         {/* mobile-nav-close */}
                         <div className='logo-box'>
                             <a href='index.html'>
-                                <img src={window.location.origin + "/src/assets/template/image/logo-light.png"} width={160} height={40} alt={26} />
+                                {/* <img src={window.location.origin + "/src/assets/template/image/logo-light.png"} width={160} height={40} alt={26} /> */}
+                                <img src={window.location.origin + "/src/assets/template/image/logo-light.png"} width={160} height={40} />
                             </a>
                         </div>
                         {/* logo-box */}

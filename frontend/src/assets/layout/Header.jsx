@@ -62,7 +62,7 @@ const Header = () => {
                     <div className='main-menu-left'>
                         <div className='main-menu-logo'>
                             <a href='index.html'>
-                                <img src={window.location.origin + "/src/assets/template/image/logo.png"} alt='img-1' width={140} />
+                                <img src={"./image/logo.png"} alt='img-1' width={140} />
                             </a>
                         </div>
                         <Menu/>
